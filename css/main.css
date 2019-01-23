@@ -29,6 +29,7 @@ header{
     min-height:70px;
     border-bottom:#e8491d solid;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     
 }
