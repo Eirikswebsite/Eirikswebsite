@@ -12,6 +12,7 @@ html{
     padding: 0;
     display: table;
     max-width: 100%;
+    box-sizing: border-box;
 }
 .wrapper{
     padding: 20px;
