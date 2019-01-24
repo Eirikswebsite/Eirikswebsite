@@ -122,7 +122,8 @@ header a:hover{
     width: 30%;
     max-width: 30%;
     padding: 10px;
-    display:block;
+    display: block;
+    margin: auto;
 }
 #Boxer .Box img{
     width: 150px;
