@@ -55,7 +55,7 @@ header #logo{
 header #logo h1{
     margin: 0;
 }
-header nav{
+xheader nav{
     float: right;
     margin-top: -30px;
 }
