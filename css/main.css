@@ -37,7 +37,7 @@ header{
 .nav{
     text-align: right;
     height: 20px;
-    line-height: 20px;
+    line-height: 40px;
 }
 .menu{
     margin: 0 10px 0 0;
@@ -86,31 +86,12 @@ label{
     }
 }
 
-
-xheader a{
-    color:#ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-xheader ul{
-    margin:0;
-    padding:0;
-}
-xheader li{
-    float: left;
-    display:inline;
-    padding: 0 20px 0 20px;
 }
 header #logo{
     float: left;
 }
 header #logo h1{
     margin: 0;
-}
-xheader nav{
-    float: right;
-    margin-top: -30px;
 }
 header .highlight, header .current a{
     color: #e8491d;
