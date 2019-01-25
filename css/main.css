@@ -44,7 +44,7 @@ header ul{
     margin:0;
     padding:0;
 }
-header li{
+hexader li{
     flxoat: left;
     dxisplay:inline;
     padding: 0 20px 0 20px;
@@ -55,7 +55,7 @@ header #logo{
 header #logo h1{
     margin: 0;
 }
-header nav{
+heaxder nav{
     flxoat: right;
     marxgin-top: -30px;
 }
@@ -67,14 +67,7 @@ header a:hover{
     color:#cccccc;
     font-weight: bold;
 }
-@media only screen (min-width: 500){
-    header nav{
-    float: right;
-    }
-    header li{
-        display: inline;
-    }
-}
+
 /*showcase**/
 #showcase{
     min-height: 250px; background:url("../img/showcase.jpg") no-repeat 0 -350px;
