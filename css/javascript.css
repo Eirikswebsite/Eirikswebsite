@@ -1,9 +1,10 @@
 
-.nxav{
-    border-bottom: 1px solid #eaeaeb;
-    text-align: right;
-    height: 70px;
+.nav{
+    xborder-bottom: 1px solid #eaeaeb;
+    xtext-align: right;
+    height: auto;
     line-height: 70px;
+    min-height: 70px;
 }
 .menu{
     margin: 0 30px 0 0;
