@@ -69,7 +69,7 @@ header a:hover{
 }
 @media only screen (min-width: 500){
     header nav{
-    flxoat: right;
+    float: right;
     }
 }
 /*showcase**/
