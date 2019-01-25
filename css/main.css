@@ -71,6 +71,9 @@ header a:hover{
     header nav{
     float: right;
     }
+    header li{
+        display: inline;
+    }
 }
 /*showcase**/
 #showcase{
