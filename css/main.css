@@ -34,7 +34,7 @@ header{
     top: 0;
     
 }
-nav{
+.nav{
     text-align: right;
     height: auto;
     line-height: 70px;
@@ -85,7 +85,7 @@ label{
 }
 
 
-header a{
+xheader a{
     color:#ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -106,7 +106,7 @@ header #logo{
 header #logo h1{
     margin: 0;
 }
-header nav{
+xheader nav{
     float: right;
     margin-top: -30px;
 }
