@@ -27,7 +27,7 @@ html{
 header{
     background:#35424a;
     color:#ffffff;
-    padding-top:0px;
+    padding-top:10px;
     min-height:30px;
     border-bottom:#e8491d solid;
     position: sticky;
@@ -47,7 +47,7 @@ header{
     text-decoration: none;
     color: #e8491d;
     margin: 0 10px;
-    line-height: 70px;
+    line-height: 0px;
     list-style-type: none;
     display: inline;
 }
@@ -81,6 +81,7 @@ label{
         float: right;
         width: 100%;
         list-style-type: none;
+        line-height: 70px;
     }
     #toggle:checked + .menu{
         display: block;
