@@ -16,6 +16,7 @@ html{
 }
 .wrapper{
     padding: 20px;
+    min-height: 100%;
 }
 .conteiner{
     width:80%;
