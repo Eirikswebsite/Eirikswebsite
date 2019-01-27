@@ -38,7 +38,7 @@ header{
 .nav{
     text-align: right;
     height: 20px;
-    line-height: 70px;
+    line-height: -10px;
 }
 .menu{
     margin: 0 10px 0 0;
@@ -47,7 +47,7 @@ header{
     text-decoration: none;
     color: #e8491d;
     margin: 0 10px;
-    line-height: 0px;
+    line-height: 70px;
     list-style-type: none;
     display: inline;
 }
