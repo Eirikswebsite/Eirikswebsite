@@ -179,8 +179,8 @@ footer{
     display: table-row;
     height: 1px;
     text-align: center;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    position: absolute;
 }
 .product-name{
     text-align: center;
