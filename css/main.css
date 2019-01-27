@@ -180,9 +180,10 @@ footer{
     display: table-row;
     height: 70px;
     text-align: center;
-    width: 100%;
+    width: 80%;
     position: absolute;
-    margin: 20px;
+    margin: auto;
+    padding: 0;
 }
 .product-name{
     text-align: center;
