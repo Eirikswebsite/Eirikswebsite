@@ -27,7 +27,7 @@ html{
 header{
     background:#35424a;
     color:#ffffff;
-    padding-top:10px;
+    padding-top:0px;
     min-height:30px;
     border-bottom:#e8491d solid;
     position: sticky;
@@ -38,7 +38,7 @@ header{
 .nav{
     text-align: right;
     height: 20px;
-    line-height: -10px;
+    line-height: 1px;
 }
 .menu{
     margin: 0 10px 0 0;
@@ -181,6 +181,7 @@ footer{
     text-align: center;
     width: 100%;
     position: absolute;
+    padding: 20px;
 }
 .product-name{
     text-align: center;
