@@ -38,7 +38,7 @@ header{
 .nav{
     text-align: right;
     height: 20px;
-    line-height: 20px;
+    line-height: 0px;
 }
 .menu{
     margin: 0 10px 0 0;
@@ -179,7 +179,7 @@ footer{
     display: table-row;
     height: 70px;
     text-align: center;
-    width: 100%;
+    width: 80%;
     position: absolute;
 }
 .product-name{
