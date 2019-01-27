@@ -41,12 +41,12 @@ header{
     line-height: 70px;
 }
 .menu{
-    margin: 0 0px 0 0;
+    margin: 0 10px 0 0;
 }
 .menu a{
     text-decoration: none;
     color: #e8491d;
-    margin: 0 0px;
+    margin: 0 10px;
     line-height: 20px;
     list-style-type: none;
     display: inline;
