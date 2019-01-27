@@ -177,7 +177,9 @@ footer{
     background-color: #e8491d;
     display: table-row;
     height: 1px;
-    text-align: center
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 .product-name{
     text-align: center;
