@@ -177,12 +177,13 @@ article#hoved-col{
 }
 footer{
     background-color: #e8491d;
-    display: table-row;
+    display: table;
     height: 70px;
     text-align: center;
     width: 80%;
     position: absolute;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .product-name{
     text-align: center;
