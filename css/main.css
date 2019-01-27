@@ -177,6 +177,7 @@ article#hoved-col{
 }
 #footer{
     text-align: center;
+    padding: 30px;
 }
 footer{
     background-color: #e8491d;
@@ -184,6 +185,7 @@ footer{
     height: 70px;
     text-align: center;
     width: 100%;
+    padding: 50px;
 }
 .product-name{
     text-align: center;
