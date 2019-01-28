@@ -94,7 +94,7 @@ header #logo{
 }
 header #logo h1{
     margin: 0;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 header .highlight, header .current a{
     color: #e8491d;
