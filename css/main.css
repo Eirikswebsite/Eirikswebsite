@@ -191,14 +191,14 @@ footer{
     width: 100%;
 }
 .product{
-    align-content :center
+    align-content: center;
 }
 .product-name{
     text-align: center;
    
 }
 .product img{
-    width: 400px;
+    width: 300px;
     height: 520px;
     text-align: center;
 }
