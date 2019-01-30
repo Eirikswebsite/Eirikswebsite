@@ -13,6 +13,7 @@ html{
     display: table;
     max-width: 100%;
     box-sizing: border-box;
+    scroll-behaviour: smooth;
 }
 .wrapper{
     padding: 20px;
