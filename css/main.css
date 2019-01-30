@@ -196,7 +196,8 @@ footer{
 }
 .product img{
     width: 300px;
-    height: 520px
+    height: 520px;
+    text-align: center;
 }
 
 .product-description{
