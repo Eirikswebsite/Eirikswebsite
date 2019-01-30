@@ -13,11 +13,13 @@ html{
     display: table;
     max-width: 100%;
     box-sizing: border-box;
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 .wrapper{
     padding: 20px;
     min-height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .conteiner{
     width:80%;
@@ -31,10 +33,9 @@ header{
     padding-top:10px;
     min-height:30px;
     border-bottom:#e8491d solid;
-    position: sticky;
+    position:sticky;
     position: -webkit-sticky;
-    top: 0;
-    
+    top: 0
 }
 .nav{
     text-align: right;
@@ -42,6 +43,7 @@ header{
     line-height: 1px;
     margin: 0;
     margin-top: -20px;
+    font-weight: bold;
 }
 .menu{
     margin: 0 10px 0 0;
@@ -67,7 +69,7 @@ label{
     display: none;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 850px){
     label{
         display: block;
         cursor: pointer;
@@ -76,16 +78,18 @@ label{
         text-align: center;
         width: 100%;
         display: none;
+        background:#35424a;
     }
     .menu a{
         clear: right;
         display: block;
-        border-bottom: 1px solid #eaeaeb;
+        border-bottom: 1px solid #e8491d;
         margin: 0;
         float: right;
         width: 100%;
         list-style-type: none;
         line-height: 70px;
+        background:#35424a;
     }
     #toggle:checked + .menu{
         display: block;
@@ -111,13 +115,15 @@ header a:hover{
 
 /*showcase**/
 #showcase{
-    min-height: 250px; background:url("../img/showcase.jpg") no-repeat 0 -350px;
+    min-height: 250px;
+    background:url("../img/showcase.jpg") no-repeat 0 -350px;
     background: {
         width: 100%;
-        height: auto;
+        height: 100vh;
     }
     text-align: left;
     color: #ffffff;
+    height: 100vh;
 }
 #showcase h1{
     margin-top: 150px;
@@ -167,10 +173,14 @@ header a:hover{
     padding: 10px;
     display: block;
     margin: auto;
+    height: 100vh;
 }
 #Boxer .Box img{
     width: 300px;
     height: 520px
+}
+#hoved{
+    height: 100vh;
 }
 aside#sidebar{
     float:right; 
@@ -188,12 +198,13 @@ article#hoved-col{
 footer{
     background-color: #e8491d;
     display: inline-block;
-    height: 70px;
+    height: 50px;
     text-align: center;
     width: 100%;
 }
 #product{
     align-content: center;
+    height: 100vh;
 }
 .product-name{
     text-align: center;
