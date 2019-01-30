@@ -157,6 +157,7 @@ header a:hover{
 /*bokser**/
 #Boxer{
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 #Boxer .Box{
     text-align: center;
