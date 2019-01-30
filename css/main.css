@@ -191,7 +191,7 @@ footer{
     width: 100%;
 }
 .product{
-    text-align:center
+    align-content :center
 }
 .product-name{
     text-align: center;
