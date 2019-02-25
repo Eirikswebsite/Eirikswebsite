@@ -116,7 +116,7 @@ header a:hover{
 /*showcase**/
 #showcase{
     min-height: 250px;
-    background:url("../img/showcase.jpg") no-repeat 0 -350px;
+    background:url("../img/søppelpose.jpg") no-repeat 0 -350px;
     background: {
         width: 100%;
         height: 60vh;
