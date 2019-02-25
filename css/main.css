@@ -133,7 +133,8 @@ header a:hover{
 }
 #showcase p{
     font-size: 20px;
-    color:white;
+    color: white;
+    text-align: center;
 }
 .button_1{
     height: 35px;
