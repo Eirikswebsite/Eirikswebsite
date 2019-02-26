@@ -116,7 +116,7 @@ header a:hover{
 /*showcase**/
 #showcase{
     min-height: 250px;
-    background-image: url("../img/trashbag.jfif") width: 100% height: 100vh no-repeat;
+    background-image: url("../img/trashbag.jfif");
     text-align: center;
     color: #ffffff;
     height: 100vh;
