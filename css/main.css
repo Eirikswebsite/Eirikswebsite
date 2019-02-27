@@ -45,6 +45,9 @@ header{
     margin-top: -20px;
     font-weight: bold;
 }
+.logo{
+    height: 50px;
+}
 .menu{
     margin: 0 10px 0 0;
     margin-top: 0;
