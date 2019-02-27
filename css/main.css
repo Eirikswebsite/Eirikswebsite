@@ -179,7 +179,7 @@ header a:hover{
     height: 100vh;
 }
 #Boxer .Box img{
-    width: 200px;
+    width: auto;
     height: 346px
 }
 #hoved{
@@ -214,7 +214,7 @@ footer{
    
 }
 #product img{
-    width: 200px;
+    width: auto;
     height: 346px;
     text-align: center;
 }
