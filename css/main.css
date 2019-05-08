@@ -237,36 +237,72 @@ background-color: #3498DB;
   cursor: pointer;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+li {
+  display: inline-block;
+  list-style-type: none;
+    text-align: center;
+
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding. none;
+  padding: 12px 16px;
   text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+#start{
+    height: 100vh;
+    width: 100vw;
+    margin-right: 10px;
+    /*background-image: url(img/mountain.jpg);**/
+    background-size: 100% 100%;
+    
+        
+}
+#boks{
+    height: 50vh;
+    width: 30vw;
+    left: 35vw;
+    top: 35vh;
+    text-align: center;
+}
+#content1{
+   
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
