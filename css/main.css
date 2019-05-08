@@ -14,7 +14,7 @@ html{
     max-width: 100%;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    min-width: 50%;
+    min-width: 60vw;
 }
 .wrapper{
     padding: 20px;
