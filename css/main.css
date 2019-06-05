@@ -20,8 +20,9 @@ html{
     min-height: 100%;
     padding-top: 0;
     padding-bottom: 0;
+    top: 50%;
 }
-.conteiner{
+.logo{
     width:80%;
     margin: auto;
     overflow: hidden;
@@ -114,7 +115,6 @@ header a:hover{
     font-weight: bold;
 }
 
-/*showcase**/
 #showcase{
     min-height: 250px;
     background-image: url("../img/kildesortering2.jpg");
